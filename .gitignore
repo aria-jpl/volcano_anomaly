@@ -1,0 +1,8 @@
+venv
+*.png
+VOLCANO_ANOMALY-*
+_context.json
+*.h5
+*.p
+.idea
+.ipynb_checkpoints/
