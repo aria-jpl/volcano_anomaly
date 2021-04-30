@@ -11,4 +11,4 @@ jupyter==1.0.0
 six==1.15.0
 python-dateutil==2.8.1
 
-git+git://github.com/hysds/notebook_pge_wrapper@2108d91#egg=notebook_pge_wrapper
+-e git+git://github.com/hysds/notebook_pge_wrapper@2108d91#egg=notebook_pge_wrapper
