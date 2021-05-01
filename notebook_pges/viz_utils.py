@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -43,7 +44,9 @@ def plot_timeseries2d(timeseries, dates, suptitle, savepath):
                 fig.colorbar(cmap, cax=cbar_ax)
 
                 fig.suptitle(suptitle, fontsize=50)
-                plt.savefig(f"{savepath}_{fig_n}.png")
+                output_filepath = os.path.join(savepath, f"_{fig_n}.png")
+                print(f'Saving 2d plot set to {output_filepath}')
+                plt.savefig(output_filepath)
                 fig, axs = plt.subplots(n_plt_per_axis, n_plt_per_axis, figsize=(50, 40))
                 n_y, n_x = 0, 0
                 fig_n += 1
@@ -56,6 +59,10 @@ def plot_timeseries2d(timeseries, dates, suptitle, savepath):
         cbar_ax = fig.add_axes([0.92, 0.15, 0.01, 0.7])
         cbar_ax.tick_params(labelsize=50)
         fig.colorbar(cmap, cax=cbar_ax)
+    
+    output_filepath = os.path.join(savepath, f"_{fig_n}.png")
+    print(f'Saving 2d plot set to {output_filepath}')
+    plt.savefig(output_filepath)
         
 def get_coord_position(size, n_points):
     if (size == n_points):
@@ -175,7 +182,7 @@ def plot_timeseries1d(timeseries, dates, n_xaxis, n_yaxis, include_trend=False):
     return sampled_series, series_dict
 
 
-def plot_1dseries(data, dates):
+def plot_1dseries(data, dates, output_filepath):
     fig = plt.figure()
     
     for i, serie in enumerate(data['series']):
@@ -194,3 +201,6 @@ def plot_1dseries(data, dates):
         plt.axvline(x=end_label)
         plt.title('Normal Series')
         plt.show()
+        
+    print(f'Saving 1d plot set to {output_filepath}')
+    plt.savefig(output_filepath)
