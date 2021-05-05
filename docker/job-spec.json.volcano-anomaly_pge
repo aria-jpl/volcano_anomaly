@@ -1,0 +1,42 @@
+{
+  "command": "notebook-pge-wrapper execute /home/jovyan/volcano-anomaly/notebook_pges/volcano-anomaly_pge.ipynb",
+  "time_limit": 57389,
+  "soft_time_limit": 4738,
+  "disk_usage": "10GB",
+  "required_queues": [
+    "factotum-job_worker-small"
+  ],
+  "imported_worker_files": {
+    "$HOME/.aws": "/home/jovyan/.aws"
+  },
+  "params": [
+    {
+      "name": "mintpy_input_dataset_id",
+      "destination": "context"
+    },
+    {
+      "name": "central_pixel_x",
+      "destination": "context"
+    },
+    {
+      "name": "central_pixel_y",
+      "destination": "context"
+    },
+    {
+      "name": "active_range_distance",
+      "destination": "context"
+    },
+    {
+      "name": "outer_range_distance",
+      "destination": "context"
+    },
+    {
+      "name": "lstm_grid_size",
+      "destination": "context"
+    },
+    {
+      "name": "lstm_time_window",
+      "destination": "context"
+    }
+  ]
+}

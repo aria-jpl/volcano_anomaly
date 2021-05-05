@@ -1,0 +1,49 @@
+{
+  "submission_type": "individual",
+  "params": [
+    {
+      "name": "mintpy_input_dataset_id",
+      "from": "submitter",
+      "type": "text",
+      "default": "S1-TIMESERIES-MINTPY-A124-20190214-718d4"
+    },
+    {
+      "name": "central_pixel_x",
+      "from": "submitter",
+      "type": "number",
+      "default": "500"
+    },
+    {
+      "name": "central_pixel_y",
+      "from": "submitter",
+      "type": "number",
+      "default": "500"
+    },
+    {
+      "name": "active_range_distance",
+      "from": "submitter",
+      "type": "number",
+      "default": "12"
+    },
+    {
+      "name": "outer_range_distance",
+      "from": "submitter",
+      "type": "number",
+      "default": "24"
+    },
+    {
+      "name": "lstm_grid_size",
+      "from": "submitter",
+      "type": "text",
+      "default": "3"
+    },
+    {
+      "name": "lstm_time_window",
+      "from": "submitter",
+      "type": "text",
+      "default": "9"
+    }
+  ],
+  "component": "tosca",
+  "label": "Volcano Anomaly LSTM"
+}
