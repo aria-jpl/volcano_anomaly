@@ -13,5 +13,3 @@ python-dateutil==2.8.1
 
 pyyaml==5.3.1
 click>=7.1.2
-
--e git+git://github.com/hysds/notebook_pge_wrapper@2108d91#egg=notebook_pge_wrapper
