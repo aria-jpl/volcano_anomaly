@@ -7,7 +7,8 @@
     "factotum-job_worker-small"
   ],
   "imported_worker_files": {
-    "$HOME/.aws": "/home/jovyan/.aws"
+    "$HOME/.aws": "/home/jovyan/.aws",
+    "$HOME/.netrc": "/home/jovyan/.netrc"
   },
   "params": [
     {
