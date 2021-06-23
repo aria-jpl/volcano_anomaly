@@ -15,19 +15,35 @@
       "destination": "context"
     },
     {
-      "name": "central_pixel_x",
+      "name": "active_pixel_x_min",
       "destination": "context"
     },
     {
-      "name": "central_pixel_y",
+      "name": "active_pixel_x_max",
       "destination": "context"
     },
     {
-      "name": "active_range_distance",
+      "name": "active_pixel_y_min",
       "destination": "context"
     },
     {
-      "name": "outer_range_distance",
+      "name": "active_pixel_y_max",
+      "destination": "context"
+    },
+    {
+      "name": "outer_pixel_x_min",
+      "destination": "context"
+    },
+    {
+      "name": "outer_pixel_x_max",
+      "destination": "context"
+    },
+    {
+      "name": "outer_pixel_y_min",
+      "destination": "context"
+    },
+    {
+      "name": "outer_pixel_y_max",
       "destination": "context"
     },
     {

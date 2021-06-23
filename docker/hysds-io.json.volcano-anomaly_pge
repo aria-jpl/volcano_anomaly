@@ -8,28 +8,52 @@
       "default": "http://soamc-dev-rs-fwd.s3-us-west-2.amazonaws.com/products/S1-TIMESERIES-MINTPY/v1.0/2019/02/14/S1-TIMESERIES-MINTPY-A124-20190214-718d4/timeseries_demErr.h5"
     },
     {
-      "name": "central_pixel_x",
+      "name": "active_pixel_x_min",
       "from": "submitter",
       "type": "number",
-      "default": "500"
+      "default": "488"
     },
     {
-      "name": "central_pixel_y",
+      "name": "active_pixel_x_max",
       "from": "submitter",
       "type": "number",
-      "default": "500"
+      "default": "512"
     },
     {
-      "name": "active_range_distance",
+      "name": "active_pixel_y_min",
       "from": "submitter",
       "type": "number",
-      "default": "12"
+      "default": "488"
     },
     {
-      "name": "outer_range_distance",
+      "name": "active_pixel_y_max",
       "from": "submitter",
       "type": "number",
-      "default": "24"
+      "default": "512"
+    },
+    {
+      "name": "outer_pixel_x_min",
+      "from": "submitter",
+      "type": "number",
+      "default": "476"
+    },
+    {
+      "name": "outer_pixel_x_max",
+      "from": "submitter",
+      "type": "number",
+      "default": "524"
+    },
+    {
+      "name": "outer_pixel_y_min",
+      "from": "submitter",
+      "type": "number",
+      "default": "476"
+    },
+    {
+      "name": "outer_pixel_y_max",
+      "from": "submitter",
+      "type": "number",
+      "default": "524"
     },
     {
       "name": "lstm_grid_size",
