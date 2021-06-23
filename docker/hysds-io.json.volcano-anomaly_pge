@@ -2,10 +2,10 @@
   "submission_type": "individual",
   "params": [
     {
-      "name": "mintpy_input_dataset_id",
+      "name": "input_dem_err_url",
       "from": "submitter",
       "type": "text",
-      "default": "S1-TIMESERIES-MINTPY-A124-20190214-718d4"
+      "default": "http://soamc-dev-rs-fwd.s3-us-west-2.amazonaws.com/products/S1-TIMESERIES-MINTPY/v1.0/2019/02/14/S1-TIMESERIES-MINTPY-A124-20190214-718d4/demErr.h5"
     },
     {
       "name": "central_pixel_x",
@@ -34,13 +34,13 @@
     {
       "name": "lstm_grid_size",
       "from": "submitter",
-      "type": "text",
+      "type": "number",
       "default": "3"
     },
     {
       "name": "lstm_time_window",
       "from": "submitter",
-      "type": "text",
+      "type": "number",
       "default": "9"
     }
   ],
