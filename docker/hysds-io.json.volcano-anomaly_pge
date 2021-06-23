@@ -2,7 +2,7 @@
   "submission_type": "individual",
   "params": [
     {
-      "name": "input_dem_err_url",
+      "name": "input_timeseries_dem_err_url",
       "from": "submitter",
       "type": "text",
       "default": "http://soamc-dev-rs-fwd.s3-us-west-2.amazonaws.com/products/S1-TIMESERIES-MINTPY/v1.0/2019/02/14/S1-TIMESERIES-MINTPY-A124-20190214-718d4/timeseries_demErr.h5"
