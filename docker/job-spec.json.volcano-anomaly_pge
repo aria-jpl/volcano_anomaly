@@ -4,7 +4,7 @@
   "soft_time_limit": 4738,
   "disk_usage": "10GB",
   "required_queues": [
-    "factotum-job_worker-small"
+    "factotum-2-job_worker-large"
   ],
   "imported_worker_files": {
     "$HOME/.aws": "/home/jovyan/.aws"
